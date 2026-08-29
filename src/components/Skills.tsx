@@ -1,6 +1,6 @@
 import { skillGroups } from "../data/portfolio";
 
-export default function Skills(): JSX.Element {
+export default function Skills() {
   return (
     <section className="section" id="skills">
       <div className="container">

@@ -1,6 +1,6 @@
 import { personalDetails } from "../data/portfolio";
 
-export default function Hero(): JSX.Element {
+export default function Hero() {
   return (
     <section className="hero section" id="home">
       <div className="container hero-layout">

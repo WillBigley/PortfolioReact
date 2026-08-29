@@ -23,7 +23,7 @@ function getInitialTheme(): boolean {
   return window.matchMedia("(prefers-color-scheme: dark)").matches;
 }
 
-export default function App(): JSX.Element {
+export default function App() {
   const [darkMode, setDarkMode] = useState<boolean>(getInitialTheme);
 
   useEffect(() => {

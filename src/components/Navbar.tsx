@@ -16,7 +16,7 @@ const navigationItems = [
 export default function Navbar({
   darkMode,
   onToggleTheme,
-}: NavbarProps): JSX.Element {
+}: NavbarProps) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {

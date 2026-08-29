@@ -1,4 +1,4 @@
-export default function About(): JSX.Element {
+export default function About() {
   return (
     <section className="section section-muted" id="about">
       <div className="container">

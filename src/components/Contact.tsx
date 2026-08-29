@@ -1,6 +1,6 @@
 import { personalDetails } from "../data/portfolio";
 
-export default function Contact(): JSX.Element {
+export default function Contact() {
   return (
     <section className="section contact-section" id="contact">
       <div className="container contact-card">

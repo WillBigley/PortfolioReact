@@ -1,7 +1,7 @@
 import { projects } from "../data/portfolio";
 import type { Project } from "../types";
 
-function ProjectCard({ project }: { project: Project }): JSX.Element {
+function ProjectCard({ project }: { project: Project }) {
   const hasLinks = Boolean(project.repositoryUrl || project.liveUrl);
 
   return (
@@ -47,7 +47,7 @@ function ProjectCard({ project }: { project: Project }): JSX.Element {
   );
 }
 
-export default function Projects(): JSX.Element {
+export default function Projects() {
   return (
     <section className="section section-muted" id="projects">
       <div className="container">

@@ -1,6 +1,6 @@
 import { timeline } from "../data/portfolio";
 
-export default function Experience(): JSX.Element {
+export default function Experience() {
   return (
     <section className="section" id="experience">
       <div className="container">
