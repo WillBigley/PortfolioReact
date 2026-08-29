@@ -148,7 +148,7 @@ export const projects: Project[] = [
     technologies: ["React", "TypeScript", "Vite", "CSS", "GitHub Pages"],
     repositoryUrl:
       "https://github.com/WillBigley/PortfolioReact",
-    liveUrl: "https://WillBigley.github.io/",
+    liveUrl: "https://willbigley.github.io/PortfolioReact/",
   },
 ];
 
